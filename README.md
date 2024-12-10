@@ -12,14 +12,15 @@ This project implements a Cache Coherence Simulator using the MSI (Modified, Sha
 
 - ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/username/project.git](https://github.com/RounakMandal3000/Cache_coherence_MSI/tree/main
    cd Cache_coherence_MSI
-2. Compile
+2. **Build the Project**:
+   Use make to compile the project:
    ```bash
- 	g++ tester.cpp Main_Memory.cpp Processor.cpp Cache.cpp Central_Directory.cpp Bus.cpp -o tester.exe
+   make -f CACHE.mak
 
-3. Run the executable
+3. **Run the executable**
    ```bash
-   ./tester.exe
+   ./bin/tester.exe
